@@ -147,3 +147,7 @@ footer {
       padding: 0 10px;
       flex: right;
     }
+#skills{
+  display:flex;
+  flex-diraction:column;
+}
