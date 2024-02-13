@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #355733;
+  background-color: #080c1f;
    margin-top: 40px;
    font-size: 32px;
 }
@@ -17,7 +17,7 @@ nav{
   left: 0;
   width: 100%;
   background-color: #333;
-  color: #fff;
+  color: whitesmoke;
   display: flex;
   justify-content: flex-end;
   align-items: center;
