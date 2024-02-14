@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>My Personal Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
 </head>
 <body>
   <header>
@@ -28,29 +29,27 @@
     </div>
   </section>
 
- <section id="about">
-    <div class="content">
+   <section class="about-me" id="about">
+     <div class="photo">
       <img src="photos/code2.jpeg" alt="About Me Photo" class="left">
-      <div class="divider">
-        <hr class="solid-line">
-        <div class="text">About Me</div>
-        <hr class="solid-line">
-      </div>
-     <p>I am a skilled developer with expertise in HTML, CSS, JavaScript, and React. I have a passion for building user-friendly and visually appealing websites.
-    Hey! I'm a software engineer with a passion for building efficient and user-friendly applications. My curiosity and commitment to learning drive me to stay updated with the latest industry trends. I thrive in collaborative environments and am always excited to take on new challenges. Let's build something awesome together!</p>
     </div>
+    <div class="text">
+      <h2>About Me</h2>
+      <p>I am a skilled developer with expertise in HTML, CSS, JavaScript, and React. I have a passion for building user-friendly and visually appealing websites.
+     My curiosity and commitment to learning drive me to stay updated with the latest industry trends. I thrive in collaborative environments and am always excited to take on new challenges.</p>
+    </div>
+   
   </section>
 
+
   <section id="skills">
+    <h2>Skills</h2>
     <div class="content">
-      <h2>Skills</h2>
-      <ul>
-        <li><img src="photos/react.png" alt="React Logo"> React</li>
-        <li><img src="photos/html.png" alt="HTML Logo"> HTML</li>
-        <li><img src="photos/css.jpeg" alt="CSS Logo"> CSS</li>
-        <li><img src="photos/javascript.png" alt="JavaScript Logo"> JavaScript</li>
-        <li><img src="photos/node.png" alt="JavaScript Logo"> NodeJs</li>
-      </ul>
+        <div class="skill"><img src="photos/react.png" alt="React Logo"><p>React</p></div>
+        <div class="skill"><img src="photos/html.png" alt="HTML Logo"><p>HTML</p></div>
+        <div class="skill"><img src="photos/css.jpeg" alt="CSS Logo"><p>CSS</p></div>
+        <div class="skill"><img src="photos/javascript.png" alt="JavaScript Logo"><p>JavaScript</p></div>
+        <div class="skill"><img src="photos/node.png" alt="JavaScript Logo"><p>NodeJs</p></div>
     </div>
   </section>
 
@@ -61,11 +60,11 @@
         <li><a href="https://github.com/elisa-1121"><img src="photos/github.png"github-logo.png alt="GitHub Icon"></a></li>
         <li><a href="https://t.me/elisabetmisganew"><img src="photos/telegram.png" alt="Telegram Icon"></a></li>
         <li><a href="mailto:elisabetmisganew@gmail.com"><img src="photos/mail.png" alt="Email Icon"></a></li>
-        <li><a href="tel:+251905525225"><img src="photos/phone.png" alt="Phone Icon"></a></li>
+        <li><a href="tel:+251905525225"><img src="photos/phone.png" alt="Phone Icon">0905525225</a></li>
       </ul>
       <form action="mail.php" method="POST">
         <input type="text" placeholder="Your email">
-        <textarea placeholder="Leave a comment"></textarea>
+        <textarea placeholder="Leave a comment" cols="5" rows="6"></textarea>
         <button type="submit">Send Message</button>
       </form>
     </div>
